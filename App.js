@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(cors());
 
 initializeDbConnection();
-populateData();
+// populateData();
 
 app.use("/", (req, res) => {
   res.json("MusicMart Server");
